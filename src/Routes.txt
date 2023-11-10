@@ -1,0 +1,10 @@
+"/" home
+"/login" loginFormComponent page
+"/register" Register page
+"/login/otp" Otp verification
+"/placecard" Placecardcomponent
+"/contact" contact page
+"/about" about page
+"login/hotelbooking" hotelbooking
+
+

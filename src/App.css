@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+
+
+
+.navbar .btn {
+  background-color: #1E91B6;
+  color: #fff;
+  transition: all 250ms ease-in;
+}
+
+.navbar .btn:hover {
+  background-color: #196680;
+}
+
+.footer {
+  background-color: #FAFAFB;
+}
+
+
+
+.mostSearchedPlaces img {
+  height: 100px;
+  width: 135px;
+}
+
+
+
+input:not(:placeholder-shown)~.input-text {
+  .transform {
+    transform: translateY(-9px) translateX(-4px) scale(0.9);
+  }
+}
+
+input:focus~.input-text {
+  .transform {
+    transform: translateY(-9px) translateX(-4px) scale(0.9);
+  }
+}
+
+
+
+.svg {
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+  display: inline-block;
+}
